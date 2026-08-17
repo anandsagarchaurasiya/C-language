@@ -2,12 +2,12 @@
 int main()
 {
   int a,b;
-  printf("Enter your 1st value : ");
+  printf("Enter Dividend : ");
   scanf("%d",&a);
-  printf("Enter your 2nd value : ");
+  printf("Enter your Divisor : ");
   scanf("%d",& b);
   int q = a/b;
   int r = a-(b*q);
-  printf("%d",r);
+  printf("The Remainder When %d is divided by %d is : %d", a,b,r);
   return 0;
 }
