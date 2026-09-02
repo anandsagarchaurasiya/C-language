@@ -6,5 +6,6 @@ int main (){
   l = (j/j)*i;
   a = (i/j)*j;
   b = (j/i)*i;
+  
   printf("%d %d %d %d",k,l,a,b);
 }
