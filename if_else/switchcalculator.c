@@ -10,7 +10,6 @@ int main ()
     switch(ch)
     {
       case '+';
-      printf("%d",a+b);
+      printf("%d",a+b); 
     }
   }-
-  
